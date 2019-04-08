@@ -1,0 +1,30 @@
+{
+  "name": "scrapecity",
+  "version": "1.0.0",
+  "description": "Scraping things",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baltazarparra/scrapecity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baltazarparra/scrapecity/issues"
+  },
+  "homepage": "https://github.com/baltazarparra/scrapecity#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "esm": "^3.2.22"
+  }
+}
